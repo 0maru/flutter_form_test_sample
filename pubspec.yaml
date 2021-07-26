@@ -1,0 +1,26 @@
+name: flutter_form_test_sample
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: 5.0.0
+  state_notifier: 0.7.0
+  freezed_annotation: 0.14.2
+  flutter_state_notifier: 0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  grinder: 0.9.0
+  freezed: 0.14.2
+  build_runner: 2.0.6
+  mockito: 5.0.12
+  analyzer: 1.7.1
+
+flutter:
+  uses-material-design: true
